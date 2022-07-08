@@ -1,11 +1,10 @@
-import React, {useContext, useState} from "react";
+import React, {useContext} from "react";
 import styled from "styled-components";
 import logoImg from "./../../assets/image/logoImg.png";
 import lupa from "./../../assets/image/lupa.png";
 import liked from "./../../assets/image/liked.png";
 import notification from "./../../assets/image/notification.png";
 import {NavLink} from "react-router-dom";
-import userContext from "../../Context/User/UserContext";
 import UserContext from "../../Context/User/UserContext";
 
 const HeaderBlock = styled.div`

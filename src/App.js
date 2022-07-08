@@ -5,7 +5,7 @@ import MainPage from "./MainPage/MainPage";
 import styled from "styled-components";
 import VideoPageContainer from "./VideoPage/VideoPageContainer";
 import Navigation from "./MainPage/Navigation/Navigation";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 const AppBlock = styled.div`
   background-color: rgb(35, 32, 32);
